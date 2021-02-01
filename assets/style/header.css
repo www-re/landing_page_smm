@@ -1,0 +1,30 @@
+.header__navigation {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.header__company-link {
+  width: 232px;
+  height: 59.9px;
+}
+
+.header__nav {
+  display: flex;
+  margin-left: 181px;
+}
+
+.header__nav__item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header__nav__link,
+.header__nav__link:visited {
+  padding-right: 41px;
+  font-family: gilroy-medium;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+
+  color: #ffffff;
+}

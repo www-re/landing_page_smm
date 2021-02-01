@@ -1,0 +1,10 @@
+body {
+  background-color: #fff;
+  background-image: url("../images/Hero-smm.png"), url("../images/Vector-3.png"),
+    url("../images/Vector-4.png"), url("../images/Vector-1.png"),
+    url("../images/Vector-2.png");
+  background-size: 1920px, 213px, 317px, 1920px, 1920px;
+  background-position: right 0 top 0, left 0 top 847px, right 0 bottom 0,
+    right 0 top 0, right 0 top 1500px;
+  background-repeat: no-repeat;
+}
