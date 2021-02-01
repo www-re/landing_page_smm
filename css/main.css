@@ -1,0 +1,816 @@
+/* * {
+  TODO: delete;
+  outline: 1px dashed red;
+} */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* TODO: delete;
+  background-color: #ccc; */
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*! modern-normalize v0.7.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/*
+Document
+========
+*/
+/**
+Use a better box model (opinionated).
+*/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/**
+Use a more readable tab size (opinionated).
+*/
+:root {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+     tab-size: 4;
+}
+
+/**
+1. Correct the line height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+*/
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+Sections
+========
+*/
+/**
+Remove the margin in all browsers.
+*/
+body {
+  margin: 0;
+}
+
+/**
+Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+*/
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/*
+Grouping content
+================
+*/
+/**
+Add the correct height in Firefox.
+*/
+hr {
+  height: 0;
+}
+
+/*
+Text-level semantics
+====================
+*/
+/**
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+abbr[title] {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/**
+Add the correct font weight in Edge and Safari.
+*/
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+2. Correct the odd 'em' font sizing in all browsers.
+*/
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+Add the correct font size in all browsers.
+*/
+small {
+  font-size: 80%;
+}
+
+/**
+Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
+*/
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+Forms
+=====
+*/
+/**
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+*/
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+Remove the inheritance of text transform in Edge and Firefox.
+1. Remove the inheritance of text transform in Firefox.
+*/
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+Correct the inability to style clickable types in iOS and Safari.
+*/
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+Remove the inner border and padding in Firefox.
+*/
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+Restore the focus styles unset by the previous rule.
+*/
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
+*/
+legend {
+  padding: 0;
+}
+
+/**
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+progress {
+  vertical-align: baseline;
+}
+
+/**
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to 'inherit' in Safari.
+*/
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/*
+Interactive
+===========
+*/
+/*
+Add the correct display in Chrome and Safari.
+*/
+summary {
+  display: list-item;
+}
+
+@font-face {
+  font-family: "gilroy-light";
+  src: url("../assets/fonts/Gilroy-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "gilroy-medium";
+  src: url("../assets/fonts/Gilroy-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "gilroy-extra-bold";
+  src: url("../assets/fonts/Gilroy-ExtraBold.woff") format("woff");
+}
+
+.wrapper {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading--orange {
+  color: #f6ae00;
+}
+
+/* @media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+} */
+.header__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+.header__company-link {
+  width: 232px;
+  height: 59.9px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 181px;
+}
+
+.header__nav__item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header__nav__link,
+.header__nav__link:visited {
+  padding-right: 41px;
+  font-family: gilroy-medium;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.hero {
+  padding-top: 270px;
+  padding-bottom: 413px;
+}
+
+.hero__heading {
+  width: 570px;
+  height: 140px;
+  font-family: gilroy-extra-bold;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 130%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+.hero__descr {
+  width: 570px;
+  margin-bottom: 48px;
+  font-family: gilroy-light;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+}
+
+.hero__link,
+.hero__link:visited {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 310px;
+  height: 64px;
+  font-family: gilroy-extra-bold;
+  background: #f6ae00;
+  border-radius: 57px;
+  color: #ffffff;
+}
+
+/* About us 1 */
+.main__about-us-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 65px;
+}
+
+.main__about-us-1__img {
+  width: 618px;
+  height: 410px;
+  margin-left: -60px;
+}
+
+.main__about-us-1__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: auto;
+  padding-left: 41px;
+}
+
+.main__about-us-1__text .heading {
+  margin-bottom: 55px;
+  font-family: gilroy-extra-bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 140%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1px;
+}
+
+.main__about-us-1__text .heading span {
+  margin-right: 10px;
+}
+
+.main__about-us-1__text .paragraph {
+  font-family: gilroy-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #222222;
+  padding-right: 10px;
+  width: 570px;
+}
+
+.main__about-us-1__text .paragraph p:first-child {
+  margin-bottom: 45px;
+}
+
+/* About us 2 */
+.main__about-us-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__about-us-2__text {
+  margin-bottom: 73px;
+  margin-top: auto;
+}
+
+.main__about-us-2__text .heading {
+  margin-bottom: 55px;
+  font-family: gilroy-extra-bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 140%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1px;
+}
+
+.main__about-us-2__text .heading span {
+  margin-left: 10px;
+}
+
+.main__about-us-2__text .paragraph {
+  font-family: gilroy-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #222222;
+  padding-right: 0px;
+  width: 602px;
+  padding-right: 40px;
+}
+
+.main__about-us-2-img {
+  width: 627px;
+  height: 461px;
+  margin-right: -41px;
+}
+
+/* Responsibilities */
+.main__responsibilities {
+  margin-top: 230px;
+}
+
+.main__responsibilities .heading {
+  font-family: gilroy-extra-bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #fff;
+  margin-bottom: 131px;
+}
+
+/* Cards */
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cards__item {
+  width: 310px;
+  margin-right: 120px;
+  margin-bottom: 81px;
+  text-align-last: left;
+}
+
+.cards__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.cards__item .title {
+  display: inline-block;
+  width: 230px;
+  font-family: gilroy-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #f6ae00;
+  margin-bottom: 34px;
+}
+
+.cards__item .text {
+  font-family: gilroy-light;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+/* Form */
+.form__container {
+  padding-top: 108px;
+  padding-bottom: 257px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form__image {
+  width: 749.9px;
+  height: 510px;
+  margin-left: -225px;
+  margin-right: 80px;
+}
+
+.form {
+  width: 570px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.form__heading {
+  font-family: gilroy-extra-bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+  color: #222222;
+  margin-bottom: 40px;
+}
+
+.form input {
+  width: 470px;
+  height: 64px;
+  background: #ffffff;
+  border: 1px solid rgba(29, 29, 29, 0.33);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 61px;
+  margin-bottom: 16px;
+  padding-left: 28px;
+}
+
+.form input::-webkit-input-placeholder {
+  font-family: gilroy-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #afafaf;
+}
+
+.form input:-ms-input-placeholder {
+  font-family: gilroy-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #afafaf;
+}
+
+.form input::-ms-input-placeholder {
+  font-family: gilroy-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #afafaf;
+}
+
+.form input::placeholder {
+  font-family: gilroy-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #afafaf;
+}
+
+.form__button {
+  width: 470px;
+  height: 64px;
+  background: #f6ae00;
+  border-radius: 57px;
+  border: none;
+  font-family: gilroy-extra-bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+/* Footer */
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__list-item:first-child {
+  margin-right: 209px;
+}
+
+.footer__list-item:nth-child(2) {
+  width: 284px;
+  margin-right: 125px;
+}
+
+.footer__list-item:nth-child(3) {
+  text-align: right;
+}
+
+.footer__company-logo {
+  width: 232px;
+  height: 60px;
+}
+
+.number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: gilroy-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.contact:not(:last-child) {
+  margin-bottom: 17px;
+}
+
+.viber-image {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+.soclinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.soclinks__item:not(:last-child) {
+  margin-right: 23px;
+}
+
+.soclinks-image {
+  width: 48px;
+  height: 48px;
+}
+
+.email {
+  display: inline-block;
+  margin-bottom: 21px;
+  font-family: gilroy-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.address {
+  font-family: gilroy-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+/* Copyright */
+.footer__copyright {
+  font-family: gilroy-light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  padding: 57px 0 30px 0;
+}
+
+body {
+  background-color: #fff;
+  background-image: url("../assets/images/Hero-smm.png"), url("../assets/images/Vector-3.png"), url("../assets/images/Vector-4.png"), url("../assets/images/Vector-1.png"), url("../assets/images/Vector-2.png");
+  background-size: 1920px, 213px, 317px, 1920px, 1920px;
+  background-position: right 0 top 0, left 0 top 847px, right 0 bottom 0, right 0 top 0, right 0 top 1500px;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=main.css.map */

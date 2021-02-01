@@ -1,0 +1,49 @@
+.hero {
+  padding-top: 270px;
+  padding-bottom: 413px;
+}
+
+.hero__heading {
+  width: 570px;
+  height: 140px;
+  font-family: gilroy-extra-bold;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 130%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+.hero__descr {
+  width: 570px;
+  margin-bottom: 48px;
+
+  font-family: gilroy-light;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+
+  display: flex;
+
+  color: #ffffff;
+}
+
+.hero__link,
+.hero__link:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 310px;
+  height: 64px;
+  font-family: gilroy-extra-bold;
+  background: #f6ae00;
+  border-radius: 57px;
+  color: #ffffff;
+}
