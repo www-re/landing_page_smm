@@ -1,15 +1,26 @@
 .header__navigation {
+  @include for-size(mobile) {
+    height: auto;
+    padding-top: 21px;
+  }
   display: flex;
   align-items: center;
   height: 100px;
 }
 
 .header__company-link {
+  @include for-size(mobile) {
+    width: 171px;
+    height: auto;
+  }
   width: 232px;
   height: 59.9px;
 }
 
 .header__nav {
+  @include for-size(mobile) {
+    display: none;
+  }
   display: flex;
   margin-left: 181px;
 }

@@ -1,9 +1,21 @@
 .hero {
+  @include for-size(mobile) {
+    padding-top: 43px;
+    padding-bottom: 518px;
+  }
   padding-top: 270px;
   padding-bottom: 413px;
 }
 
 .hero__heading {
+  @include for-size(mobile) {
+    width: 100%;
+    height: 80.81px;
+
+    font-size: 32px;
+    letter-spacing: 0.1px;
+    margin-bottom: 21px;
+  }
   width: 570px;
   height: 140px;
   font-family: gilroy-extra-bold;
@@ -21,6 +33,11 @@
 }
 
 .hero__descr {
+  @include for-size(mobile) {
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 28px;
+  }
   width: 570px;
   margin-bottom: 48px;
 
@@ -36,6 +53,13 @@
 
 .hero__link,
 .hero__link:visited {
+  @include for-size(mobile) {
+    width: 178.93px;
+    height: 36.94px;
+    border-radius: 32px;
+    font-size: 12px;
+    line-height: 14px;
+  }
   display: flex;
   align-items: center;
   justify-content: center;

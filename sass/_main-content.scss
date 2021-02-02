@@ -1,17 +1,30 @@
 /* About us 1 */
 
 .main__about-us-1 {
+  @include for-size(mobile) {
+    margin-bottom: 99px;
+    flex-direction: column-reverse;
+  }
   display: flex;
   margin-bottom: 65px;
 }
 
 .main__about-us-1__img {
+  @include for-size(mobile) {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 13px;
+  }
   width: 618px;
   height: 410px;
   margin-left: -60px;
 }
 
 .main__about-us-1__text {
+  @include for-size(mobile) {
+    padding: 0;
+  }
   display: flex;
   flex-direction: column;
   margin-top: auto;
@@ -19,6 +32,12 @@
 }
 
 .main__about-us-1__text .heading {
+  @include for-size(mobile) {
+    font-size: 24px;
+    letter-spacing: 0.067px;
+    margin-bottom: 30px;
+    line-height: 130%;
+  }
   margin-bottom: 55px;
 
   font-family: gilroy-extra-bold;
@@ -37,6 +56,11 @@
 }
 
 .main__about-us-1__text .paragraph {
+  @include for-size(mobile) {
+    width: 100%;
+    font-size: 12px;
+    line-height: 130%;
+  }
   font-family: gilroy-medium;
   font-style: normal;
   font-weight: 500;
@@ -52,21 +76,37 @@
 }
 
 .main__about-us-1__text .paragraph p:first-child {
+  @include for-size(mobile) {
+    margin-bottom: 24px;
+  }
   margin-bottom: 45px;
 }
 
 /* About us 2 */
 
 .main__about-us-2 {
+  @include for-size(mobile) {
+    margin-bottom: 99px;
+    flex-direction: column;
+  }
   display: flex;
 }
 
 .main__about-us-2__text {
+  @include for-size(mobile) {
+    margin-bottom: 0;
+  }
   margin-bottom: 73px;
   margin-top: auto;
 }
 
 .main__about-us-2__text .heading {
+  @include for-size(mobile) {
+    font-size: 24px;
+    letter-spacing: 0.067px;
+    margin-bottom: 30px;
+    line-height: 130%;
+  }
   margin-bottom: 55px;
 
   font-family: gilroy-extra-bold;
@@ -85,6 +125,17 @@
 }
 
 .main__about-us-2__text .paragraph {
+  @include for-size(mobile) {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 144px;
+
+    font-size: 12px;
+    line-height: 130%;
+    text-align: left;
+    padding-right: 30px;
+  }
   font-family: gilroy-medium;
   font-style: normal;
   font-weight: 500;
@@ -95,13 +146,18 @@
 
   color: #222222;
 
-  padding-right: 0px;
-
   width: 602px;
   padding-right: 40px;
 }
 
 .main__about-us-2-img {
+  @include for-size(mobile) {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 29px;
+    margin-right: 0;
+  }
   width: 627px;
   height: 461px;
   margin-right: -41px;
@@ -110,10 +166,18 @@
 /* Responsibilities */
 
 .main__responsibilities {
+  @include for-size(mobile) {
+    margin-top: 180px;
+  }
   margin-top: 230px;
 }
 
 .main__responsibilities .heading {
+  @include for-size(mobile) {
+    font-size: 24px;
+    line-height: 130%;
+    margin-bottom: 50px;
+  }
   font-family: gilroy-extra-bold;
   font-style: normal;
   font-weight: 800;
@@ -130,11 +194,20 @@
 /* Cards */
 
 .cards {
+  @include for-size(mobile) {
+    flex-direction: column;
+  }
   display: flex;
   flex-wrap: wrap;
 }
 
 .cards__item {
+  @include for-size(mobile) {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
   width: 310px;
   margin-right: 120px;
   margin-bottom: 81px;
@@ -142,10 +215,17 @@
 }
 
 .cards__item:nth-child(3n) {
+  @include for-size(mobile) {
+    margin-right: auto;
+  }
   margin-right: 0;
 }
 
 .cards__item .title {
+  @include for-size(mobile) {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
   display: inline-block;
   width: 230px;
 
@@ -160,6 +240,9 @@
 }
 
 .cards__item .text {
+  @include for-size(mobile) {
+    font-size: 12px;
+  }
   font-family: gilroy-light;
   font-style: normal;
   font-weight: 500;
@@ -174,6 +257,11 @@
 /* Form */
 
 .form__container {
+  @include for-size(mobile) {
+    padding-top: 106px;
+    padding-bottom: 128px;
+    flex-direction: column;
+  }
   padding-top: 108px;
   padding-bottom: 257px;
 
@@ -181,6 +269,13 @@
 }
 
 .form__image {
+  @include for-size(mobile) {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
   width: 749.9px;
   height: 510px;
 
@@ -189,6 +284,9 @@
 }
 
 .form {
+  @include for-size(mobile) {
+    width: 100%;
+  }
   width: 570px;
   display: flex;
   flex-direction: column;
@@ -196,6 +294,13 @@
 }
 
 .form__heading {
+  @include for-size(mobile) {
+    width: 100%;
+    margin-bottom: 50px;
+    padding-right: 40px;
+    font-size: 24px;
+    letter-spacing: 0.07;
+  }
   font-family: gilroy-extra-bold;
   font-style: normal;
   font-weight: 800;
@@ -209,6 +314,13 @@
 }
 
 .form input {
+  @include for-size(mobile) {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 46px;
+    padding-left: 15px;
+  }
   width: 470px;
   height: 64px;
 
@@ -221,6 +333,12 @@
 }
 
 .form input::placeholder {
+  @include for-size(mobile) {
+    font-size: 12px;
+    line-height: 21px;
+
+    letter-spacing: 0.15px;
+  }
   font-family: gilroy-medium;
   font-style: normal;
   font-weight: 500;
@@ -233,6 +351,17 @@
 }
 
 .form__button {
+  @include for-size(mobile) {
+    width: 100%;
+    height: 42px;
+
+    border-radius: 43px;
+    font-size: 12px;
+    line-height: 19px;
+
+    letter-spacing: 0.15px;
+    margin-top: 20px;
+  }
   width: 470px;
   height: 64px;
   background: #f6ae00;

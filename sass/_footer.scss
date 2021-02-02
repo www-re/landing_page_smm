@@ -1,28 +1,54 @@
 /* Footer */
 
 .footer__list {
+  @include for-size(mobile) {
+    flex-direction: column;
+  }
   display: flex;
 }
 
 .footer__list-item:first-child {
+  @include for-size(mobile) {
+    margin-right: auto;
+  }
   margin-right: 209px;
 }
 
 .footer__list-item:nth-child(2) {
+  @include for-size(mobile) {
+    width: 100%;
+    margin-right: auto;
+  }
   width: 284px;
   margin-right: 125px;
 }
 
 .footer__list-item:nth-child(3) {
+  @include for-size(mobile) {
+    margin-top: 40px;
+    margin-right: auto;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column-reverse;
+  }
   text-align: right;
 }
 
 .footer__company-logo {
+  @include for-size(mobile) {
+    width: 170px;
+    height: auto;
+    margin-bottom: 34px;
+  }
   width: 232px;
-  height: 60px;
+  height: auto;
 }
 
 .number {
+  @include for-size(mobile) {
+    font-size: 14px;
+  }
   display: flex;
   align-items: center;
 
@@ -38,30 +64,54 @@
 }
 
 .contact:not(:last-child) {
+  @include for-size(mobile) {
+    margin-bottom: 20px;
+  }
   margin-bottom: 17px;
 }
 
 .viber-image {
+  @include for-size(mobile) {
+    width: 30px;
+    height: 30px;
+    margin-right: 28px;
+  }
   width: 48px;
   height: 48px;
   margin-right: 10px;
 }
 
 .soclinks {
+  @include for-size(mobile) {
+    margin-top: 65px;
+    margin-bottom: 0;
+  }
   display: flex;
   margin-bottom: 35px;
 }
 
 .soclinks__item:not(:last-child) {
+  @include for-size(mobile) {
+    margin-right: 35px;
+  }
   margin-right: 23px;
 }
 
 .soclinks-image {
+  @include for-size(mobile) {
+    width: 40px;
+    height: 40px;
+  }
   width: 48px;
   height: 48px;
 }
 
 .email {
+  @include for-size(mobile) {
+    font-size: 14px;
+    margin-bottom: -5px;
+  }
+
   display: inline-block;
   margin-bottom: 21px;
 
@@ -76,7 +126,17 @@
   color: #ffffff;
 }
 
+.contact-container {
+  @include for-size(mobile) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .address {
+  @include for-size(mobile) {
+    font-size: 14px;
+  }
   font-family: gilroy-medium;
   font-style: normal;
   font-weight: 500;
@@ -91,6 +151,10 @@
 /* Copyright */
 
 .footer__copyright {
+  @include for-size(mobile) {
+    font-size: 12px;
+    padding: 20px 0 25px 0;
+  }
   font-family: gilroy-light;
   font-style: normal;
   font-weight: 300;
