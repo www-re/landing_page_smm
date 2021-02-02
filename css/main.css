@@ -704,6 +704,7 @@ summary {
     font-size: 24px;
     line-height: 130%;
     margin-bottom: 50px;
+    text-align: left;
   }
 }
 
@@ -751,6 +752,12 @@ summary {
   }
 }
 
+@media (min-width: 320px) and (max-width: 1200px) {
+  .cards__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .cards__item .title {
   display: inline-block;
   width: 230px;
@@ -783,6 +790,7 @@ summary {
 @media (min-width: 320px) and (max-width: 1200px) {
   .cards__item .text {
     font-size: 12px;
+    line-height: 130%;
   }
 }
 
@@ -797,7 +805,7 @@ summary {
 
 @media (min-width: 320px) and (max-width: 1200px) {
   .form__container {
-    padding-top: 106px;
+    padding-top: 256px;
     padding-bottom: 128px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1205,7 +1213,11 @@ body {
 
 @media (min-width: 320px) and (max-width: 1200px) {
   body {
-    background: #ccc;
+    background-color: #fff;
+    background-image: url("../assets/images/Mobile/Vector-smm-mobile.png"), url("../assets/images/Mobile/Vector-header-mobile.png"), url("../assets/images/Mobile/Vector-2-mobile.png"), url("../assets/images/Mobile/Vector-main-mobile.png"), url("../assets/images/Mobile/Vector-main-mobile-bg.png"), url("../assets/images/Mobile/Group.png"), url("../assets/images/Mobile/Vector-footer-mobile.png");
+    background-size: 375px, 375px, 375px, 375px, 375px, 198px, 375px;
+    background-position: left 0 top 180px, left 0 top 0, right 0 top 1873px, right 0 top 2535px, left 0 top 1909px, right 0 bottom 0, left 0 bottom 0;
+    background-repeat: no-repeat;
   }
 }
 /*# sourceMappingURL=main.css.map */

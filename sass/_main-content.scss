@@ -177,6 +177,7 @@
     font-size: 24px;
     line-height: 130%;
     margin-bottom: 50px;
+    text-align: left;
   }
   font-family: gilroy-extra-bold;
   font-style: normal;
@@ -221,6 +222,12 @@
   margin-right: 0;
 }
 
+@include for-size(mobile) {
+  .cards__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .cards__item .title {
   @include for-size(mobile) {
     font-size: 16px;
@@ -242,6 +249,7 @@
 .cards__item .text {
   @include for-size(mobile) {
     font-size: 12px;
+    line-height: 130%;
   }
   font-family: gilroy-light;
   font-style: normal;
@@ -258,7 +266,7 @@
 
 .form__container {
   @include for-size(mobile) {
-    padding-top: 106px;
+    padding-top: 256px;
     padding-bottom: 128px;
     flex-direction: column;
   }

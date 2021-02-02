@@ -1,6 +1,18 @@
 body {
   @include for-size(mobile) {
-    background: #ccc;
+    background-color: #fff;
+    background-image: url("../assets/images/Mobile/Vector-smm-mobile.png"),
+      url("../assets/images/Mobile/Vector-header-mobile.png"),
+      url("../assets/images/Mobile/Vector-2-mobile.png"),
+      url("../assets/images/Mobile/Vector-main-mobile.png"),
+      url("../assets/images/Mobile/Vector-main-mobile-bg.png"),
+      url("../assets/images/Mobile/Group.png"),
+      url("../assets/images/Mobile/Vector-footer-mobile.png");
+
+    background-size: 375px, 375px, 375px, 375px, 375px, 198px, 375px;
+    background-position: left 0 top 180px, left 0 top 0, right 0 top 1873px,
+      right 0 top 2535px, left 0 top 1909px, right 0 bottom 0, left 0 bottom 0;
+    background-repeat: no-repeat;
   }
   background-color: #fff;
   background-image: url("../assets/images/Hero-smm.png"),
