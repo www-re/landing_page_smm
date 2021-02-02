@@ -668,10 +668,11 @@ summary {
 }
 
 body {
-  background-color: #ccc;
+  background-color: black;
 }
 
 .feedback {
   padding: 400px 0;
+  background-color: #ccc;
 }
 /*# sourceMappingURL=feedback.css.map */
