@@ -304,8 +304,8 @@ summary {
 
 @media (min-width: 320px) and (max-width: 1200px) {
   .wrapper {
-    padding: 0 15px;
-    width: 100%;
+    padding: 0 10px;
+    width: 375px;
   }
 }
 
@@ -326,6 +326,7 @@ summary {
 @media (min-width: 320px) and (max-width: 1200px) {
   .header__navigation {
     height: auto;
+    padding: 0 4px;
     padding-top: 21px;
   }
 }
@@ -355,8 +356,41 @@ summary {
   }
 }
 
+@media (min-width: 320px) and (max-width: 1200px) {
+  .active {
+    margin-left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px);
+    padding: 33px 16px;
+  }
+}
+
+.active .close {
+  display: none;
+}
+
 .header__nav__item:not(:last-child) {
   margin-right: 45px;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .header__nav__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 47px;
+  }
 }
 
 .header__nav__link,
@@ -367,6 +401,51 @@ summary {
   font-size: 18px;
   line-height: 130%;
   color: #ffffff;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .header__nav__link,
+  .header__nav__link:visited {
+    margin-right: 0;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    display: block;
+    text-align: right;
+    padding-right: 0;
+  }
+}
+
+.open,
+.open__icon {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .open,
+  .open__icon {
+    display: block;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .close {
+    margin-bottom: 47px;
+  }
+  .close__icon {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+  }
+  .open {
+    width: 30px;
+    height: 20px;
+    margin-left: auto;
+  }
+  .open__icon {
+    width: 30px;
+    height: 20px;
+  }
 }
 
 .hero {
@@ -683,7 +762,7 @@ summary {
 
 @media (min-width: 320px) and (max-width: 1200px) {
   .main__responsibilities {
-    margin-top: 180px;
+    margin-top: 200px;
   }
 }
 
@@ -774,6 +853,7 @@ summary {
   .cards__item .title {
     font-size: 16px;
     margin-bottom: 20px;
+    width: 100%;
   }
 }
 
@@ -805,7 +885,7 @@ summary {
 
 @media (min-width: 320px) and (max-width: 1200px) {
   .form__container {
-    padding-top: 256px;
+    padding-top: 276px;
     padding-bottom: 128px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

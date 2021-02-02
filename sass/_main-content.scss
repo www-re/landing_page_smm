@@ -167,7 +167,7 @@
 
 .main__responsibilities {
   @include for-size(mobile) {
-    margin-top: 180px;
+    margin-top: 200px;
   }
   margin-top: 230px;
 }
@@ -232,6 +232,7 @@
   @include for-size(mobile) {
     font-size: 16px;
     margin-bottom: 20px;
+    width: 100%;
   }
   display: inline-block;
   width: 230px;
@@ -266,7 +267,7 @@
 
 .form__container {
   @include for-size(mobile) {
-    padding-top: 256px;
+    padding-top: 276px;
     padding-bottom: 128px;
     flex-direction: column;
   }
