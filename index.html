@@ -7,6 +7,18 @@
     <title>RemoteEmployees</title>
   </head>
   <body>
+    <script type="text/javascript">
+      let submitted = false;
+    </script>
+
+    <iframe
+      name="hidden_iframe"
+      id="hidden_iframe"
+      style="display: none"
+      onload="
+            if (submitted) {
+              window.location ='feedback.html'}"
+    ></iframe>
     <header class="header">
       <div class="wrapper">
         <div class="header__navigation">
@@ -176,21 +188,44 @@
             alt="Form image"
             class="form__image"
           />
-          <form class="form" action="submit">
+          <form
+            role="form"
+            class="form"
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc5VsxkZAf44NgpTTOLMXKl-r61tjc3bFrRWsD3Dqk5dDklhQ/formResponse"
+            method="POST"
+            target="hidden_iframe"
+            onsubmit="submitted = true;"
+          >
             <h2 class="form__heading">
               Возможно,
               <span class="heading--orange">мы ищем именно вас!</span><br />
               Заполните форму и мы свяжемся с вами!
             </h2>
-            <input type="text" name="name" id="name" placeholder="Ф. И. О" />
             <input
               type="text"
-              name="viber"
+              name="entry.311535038"
+              id="name"
+              placeholder="Ф. И. О"
+              required
+            />
+            <input
+              type="text"
+              name="entry.343778497"
               id="viber"
               placeholder="Telegram/Viber"
+              required
             />
-            <input type="email" name="email" id="email" placeholder="E-mail" />
-            <button class="form__button" type="submit">ОТКЛИКНУТЬСЯ</button>
+            <input
+              type="email"
+              name="entry.87314357"
+              id="email"
+              placeholder="E-mail"
+              required
+            />
+
+            <button class="form__button" type="submit" id="submit">
+              ОТКЛИКНУТЬСЯ
+            </button>
           </form>
         </div>
       </div>
