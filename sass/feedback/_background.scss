@@ -1,5 +1,9 @@
-body {
+.page {
   @include for-size(mobile) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    overflow: hidden;
     background-color: #fff;
     background-image: url("../../assets/images/Mobile/Vector-mobile-right-thank-you.png"),
       url("../../assets/images/Mobile/Vector-mobile-top-thank-you.png"),
@@ -9,7 +13,8 @@ body {
     background-position: right 0 bottom 0, right 0 top 0, right 0 bottom 0;
     background-repeat: no-repeat;
   }
-
+  margin-left: auto;
+  margin-right: auto;
   background-color: #fff;
   background-image: url("../../assets/images/Desktop/Vector-left-thank-you.png"),
     url("../../assets/images/Desktop/Vector-top-thank-you.png"),

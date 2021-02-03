@@ -302,7 +302,7 @@ summary {
   margin-right: auto;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .wrapper {
     padding: 0 10px;
     width: 375px;
@@ -323,7 +323,7 @@ summary {
   height: 100px;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .header__navigation {
     height: auto;
     padding: 0 4px;
@@ -336,7 +336,7 @@ summary {
   height: 59.9px;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .header__company-link {
     width: 171px;
     height: auto;
@@ -350,13 +350,13 @@ summary {
   margin-left: 181px;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .header__nav {
     display: none;
   }
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .active {
     margin-left: 0;
     -webkit-box-orient: vertical;
@@ -386,7 +386,7 @@ summary {
   margin-right: 45px;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .header__nav__item:not(:last-child) {
     margin-right: 0;
     margin-bottom: 47px;
@@ -403,7 +403,7 @@ summary {
   color: #ffffff;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .header__nav__link,
   .header__nav__link:visited {
     margin-right: 0;
@@ -421,14 +421,14 @@ summary {
   display: none;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .open,
   .open__icon {
     display: block;
   }
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .close {
     margin-bottom: 47px;
   }
@@ -455,7 +455,7 @@ summary {
   display: flex;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .footer__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -468,7 +468,7 @@ summary {
   margin-right: 209px;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .footer__list-item:first-child {
     margin-right: auto;
   }
@@ -479,7 +479,7 @@ summary {
   margin-right: 125px;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .footer__list-item:nth-child(2) {
     width: 100%;
     margin-right: auto;
@@ -490,7 +490,7 @@ summary {
   text-align: right;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .footer__list-item:nth-child(3) {
     margin-top: 40px;
     margin-right: auto;
@@ -510,7 +510,7 @@ summary {
   height: auto;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .footer__company-logo {
     width: 170px;
     height: auto;
@@ -534,7 +534,7 @@ summary {
   color: #ffffff;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .number {
     font-size: 14px;
   }
@@ -544,7 +544,7 @@ summary {
   margin-bottom: 17px;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .contact:not(:last-child) {
     margin-bottom: 20px;
   }
@@ -556,7 +556,7 @@ summary {
   margin-right: 10px;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .viber-image {
     width: 30px;
     height: 30px;
@@ -571,7 +571,7 @@ summary {
   margin-bottom: 35px;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .soclinks {
     margin-top: 65px;
     margin-bottom: 0;
@@ -582,7 +582,7 @@ summary {
   margin-right: 23px;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .soclinks__item:not(:last-child) {
     margin-right: 35px;
   }
@@ -593,7 +593,7 @@ summary {
   height: 48px;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .soclinks-image {
     width: 40px;
     height: 40px;
@@ -612,14 +612,14 @@ summary {
   color: #ffffff;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .email {
     font-size: 14px;
     margin-bottom: -5px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .contact-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -641,7 +641,7 @@ summary {
   color: #ffffff;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .address {
     font-size: 14px;
   }
@@ -660,14 +660,16 @@ summary {
   padding: 57px 0 14px 0;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .footer__copyright {
     font-size: 12px;
     padding: 20px 0 25px 0;
   }
 }
 
-body {
+.page {
+  margin-left: auto;
+  margin-right: auto;
   background-color: #fff;
   background-image: url("../../assets/images/Desktop/Vector-left-thank-you.png"), url("../../assets/images/Desktop/Vector-top-thank-you.png"), url("../../assets/images/Desktop/Vector-bottom-thank-you.png"), url("../../assets/images/Desktop/Vector-1-thank-you.png");
   background-size: 581px, 367px, 333px, 1920px;
@@ -675,8 +677,12 @@ body {
   background-repeat: no-repeat;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
-  body {
+@media (min-width: 320px) and (max-width: 1200px) {
+  .page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    overflow: hidden;
     background-color: #fff;
     background-image: url("../../assets/images/Mobile/Vector-mobile-right-thank-you.png"), url("../../assets/images/Mobile/Vector-mobile-top-thank-you.png"), url("../../assets/images/Mobile/Vector-mobile-bottom-thank-you.png");
     background-size: 198px, 375px, 375px;
@@ -689,7 +695,7 @@ body {
   padding-bottom: 182px;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .feedback {
     padding-top: 27px;
     padding-bottom: 70px;
@@ -702,7 +708,7 @@ body {
   display: flex;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .feedback-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -718,7 +724,7 @@ body {
   margin-left: -375px;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .feedback__image {
     display: block;
     min-width: 428px;
@@ -733,7 +739,7 @@ body {
   height: 100%;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .text-container {
     margin-left: 0;
     margin-top: 0;
@@ -751,7 +757,7 @@ body {
   color: #f6ae00;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .text-container__heading {
     font-size: 54px;
     margin-bottom: 12px;
@@ -770,7 +776,7 @@ body {
   color: #ffffff;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .text-container__descr {
     font-size: 24px;
     margin-bottom: 48px;
@@ -795,7 +801,7 @@ body {
   color: #ffffff;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .text-container__link {
     font-size: 24px;
   }
@@ -813,7 +819,7 @@ body {
   background-size: contain;
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .text-container__link::after {
     width: 26px;
     height: 15px;
