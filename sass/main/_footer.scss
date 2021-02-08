@@ -63,6 +63,10 @@
   color: #ffffff;
 }
 
+.number:hover {
+  color: #f6ae00;
+}
+
 .contact:not(:last-child) {
   @include for-size(mobile) {
     margin-bottom: 20px;
@@ -95,6 +99,11 @@
     margin-right: 35px;
   }
   margin-right: 23px;
+}
+
+.soclinks__item:hover {
+  background-color: #f6ae00;
+  border-radius: 50%;
 }
 
 .soclinks-image {

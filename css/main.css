@@ -416,6 +416,10 @@ summary {
   }
 }
 
+.header__nav__link:hover {
+  color: #f6ae00;
+}
+
 .open,
 .open__icon {
   display: none;
@@ -541,6 +545,11 @@ summary {
     font-size: 12px;
     line-height: 14px;
   }
+}
+
+.hero__link:hover {
+  background-color: #fff;
+  color: #f6ae00;
 }
 
 /* About us 1 */
@@ -1156,6 +1165,10 @@ summary {
   }
 }
 
+.number:hover {
+  color: #f6ae00;
+}
+
 .contact:not(:last-child) {
   margin-bottom: 17px;
 }
@@ -1202,6 +1215,11 @@ summary {
   .soclinks__item:not(:last-child) {
     margin-right: 35px;
   }
+}
+
+.soclinks__item:hover {
+  background-color: #f6ae00;
+  border-radius: 50%;
 }
 
 .soclinks-image {

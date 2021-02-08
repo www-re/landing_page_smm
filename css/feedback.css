@@ -416,6 +416,10 @@ summary {
   }
 }
 
+.header__nav__link:hover {
+  color: #f6ae00;
+}
+
 .open,
 .open__icon {
   display: none;
@@ -540,6 +544,10 @@ summary {
   }
 }
 
+.number:hover {
+  color: #f6ae00;
+}
+
 .contact:not(:last-child) {
   margin-bottom: 17px;
 }
@@ -586,6 +594,11 @@ summary {
   .soclinks__item:not(:last-child) {
     margin-right: 35px;
   }
+}
+
+.soclinks__item:hover {
+  background-color: #f6ae00;
+  border-radius: 50%;
 }
 
 .soclinks-image {
