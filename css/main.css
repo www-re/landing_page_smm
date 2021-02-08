@@ -971,6 +971,7 @@ summary {
   border-radius: 61px;
   margin-bottom: 16px;
   padding-left: 28px;
+  outline: none;
 }
 
 @media (min-width: 320px) and (max-width: 1200px) {

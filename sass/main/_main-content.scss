@@ -339,6 +339,7 @@
   border-radius: 61px;
   margin-bottom: 16px;
   padding-left: 28px;
+  outline: none;
 }
 
 .form input::placeholder {
@@ -358,6 +359,14 @@
 
   color: #afafaf;
 }
+
+// .form > input:invalid {
+//   border: 1px solid red;
+// }
+
+// .form > input:invalid {
+//   border: 1px solid green;
+// }
 
 .form__button {
   @include for-size(mobile) {
