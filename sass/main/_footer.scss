@@ -135,6 +135,10 @@
   color: #ffffff;
 }
 
+.email:hover {
+  color: #f6ae00;
+}
+
 .contact-container {
   @include for-size(mobile) {
     display: flex;
