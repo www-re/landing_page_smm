@@ -16,7 +16,15 @@
 .wrapper {
   @include for-size(mobile) {
     padding: 0 10px;
-    width: 375px;
+    max-width: 100%;
+  }
+  @include for-size(tablet) {
+    padding: 0 10px;
+    max-width: 767px;
+  }
+  @include for-size(mobile) {
+    padding: 0 10px;
+    max-width: 100%;
   }
   max-width: 1200px;
   padding: 0 15px;
@@ -26,7 +34,13 @@
 
 .bg-wrapper {
   @include for-size(mobile) {
-    width: 375px;
+    max-width: 100%;
+  }
+  @include for-size(tablet) {
+    max-width: 100%;
+  }
+  @include for-size(desktop) {
+    max-width: 1920px;
   }
   max-width: 1920px;
   margin-left: auto;

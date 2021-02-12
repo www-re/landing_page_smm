@@ -9,14 +9,15 @@
 
 .hero__heading {
   @include for-size(mobile) {
-    width: 100%;
+    max-width: 270px;
     height: 80.81px;
 
     font-size: 32px;
     letter-spacing: 0.1px;
     margin-bottom: 21px;
   }
-  width: 570px;
+
+  max-width: 570px;
   height: 140px;
   font-family: gilroy-extra-bold;
   font-weight: 800;
@@ -34,9 +35,9 @@
 
 .hero__descr {
   @include for-size(mobile) {
-    width: 100%;
     font-size: 12px;
     margin-bottom: 28px;
+    max-width: 270px;
   }
   width: 570px;
   margin-bottom: 48px;

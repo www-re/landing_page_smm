@@ -4,12 +4,20 @@
   @include for-size(mobile) {
     flex-direction: column;
   }
+  @include for-size(tablet) {
+    flex-direction: column;
+  }
   display: flex;
 }
 
 .footer__list-item:first-child {
   @include for-size(mobile) {
     margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include for-size(tablet) {
+    margin-right: 0;
   }
   margin-right: 209px;
 }
@@ -18,6 +26,9 @@
   @include for-size(mobile) {
     width: 100%;
     margin-right: auto;
+  }
+  @include for-size(tablet) {
+    margin: 30px auto;
   }
   width: 284px;
   margin-right: 125px;
@@ -31,6 +42,11 @@
 
     display: flex;
     flex-direction: column-reverse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include for-size(tablet) {
+    margin-right: 0;
   }
   text-align: right;
 }
@@ -41,13 +57,30 @@
     height: auto;
     margin-bottom: 34px;
   }
+  @include for-size(tablet) {
+    margin-left: auto;
+    margin-right: auto;
+  }
   width: 232px;
   height: auto;
+}
+
+.contact-container .contacts {
+  @include for-size(mobile) {
+    max-width: 300px;
+  }
+  @include for-size(tablet) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .number {
   @include for-size(mobile) {
     font-size: 14px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
   display: flex;
   align-items: center;
@@ -90,6 +123,11 @@
     margin-top: 65px;
     margin-bottom: 0;
   }
+  @include for-size(tablet) {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
   display: flex;
   margin-bottom: 35px;
 }
@@ -115,10 +153,17 @@
   height: 48px;
 }
 
+.address {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .email {
   @include for-size(mobile) {
     font-size: 14px;
     margin-bottom: -5px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   display: inline-block;
@@ -143,12 +188,26 @@
   @include for-size(mobile) {
     display: flex;
     flex-direction: column;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include for-size(tablet) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 .address {
   @include for-size(mobile) {
     font-size: 14px;
+  }
+  @include for-size(tablet) {
+    text-align: center;
   }
   font-family: gilroy-medium;
   font-style: normal;

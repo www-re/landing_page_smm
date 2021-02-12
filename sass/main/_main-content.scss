@@ -5,16 +5,26 @@
     margin-bottom: 99px;
     flex-direction: column-reverse;
   }
+  @include for-size(tablet) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   display: flex;
   margin-bottom: 65px;
 }
 
 .main__about-us-1__img {
   @include for-size(mobile) {
-    width: 100%;
+    max-width: 300px;
     height: auto;
     margin-left: 0;
     margin-top: 13px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include for-size(tablet) {
+    margin-left: 0;
+    margin-top: 50px;
   }
   width: 618px;
   height: 410px;
@@ -33,10 +43,13 @@
 
 .main__about-us-1__text .heading {
   @include for-size(mobile) {
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 0.067px;
     margin-bottom: 30px;
     line-height: 130%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
   margin-bottom: 55px;
 
@@ -57,9 +70,11 @@
 
 .main__about-us-1__text .paragraph {
   @include for-size(mobile) {
-    width: 100%;
+    max-width: 300px;
     font-size: 12px;
     line-height: 130%;
+    margin-left: auto;
+    margin-right: auto;
   }
   font-family: gilroy-medium;
   font-style: normal;
@@ -89,6 +104,10 @@
     margin-bottom: 99px;
     flex-direction: column;
   }
+  @include for-size(tablet) {
+    display: flex;
+    flex-direction: column;
+  }
   display: flex;
 }
 
@@ -102,10 +121,14 @@
 
 .main__about-us-2__text .heading {
   @include for-size(mobile) {
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 0.067px;
     margin-bottom: 30px;
     line-height: 130%;
+
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
   margin-bottom: 55px;
 
@@ -128,13 +151,15 @@
   @include for-size(mobile) {
     display: flex;
     align-items: center;
-    width: 100%;
+    max-width: 300px;
     height: 144px;
 
     font-size: 12px;
     line-height: 130%;
     text-align: left;
     padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
   }
   font-family: gilroy-medium;
   font-style: normal;
@@ -152,11 +177,13 @@
 
 .main__about-us-2-img {
   @include for-size(mobile) {
-    width: 100%;
+    max-width: 300px;
     height: auto;
     margin-left: 0;
     margin-top: 29px;
     margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   width: 627px;
   height: 461px;
@@ -178,6 +205,9 @@
     line-height: 130%;
     margin-bottom: 50px;
     text-align: left;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
   font-family: gilroy-extra-bold;
   font-style: normal;
@@ -197,6 +227,9 @@
 .cards {
   @include for-size(mobile) {
     flex-direction: column;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
   display: flex;
   flex-wrap: wrap;
@@ -209,6 +242,7 @@
     margin-right: auto;
     margin-bottom: 40px;
   }
+
   width: 310px;
   margin-right: 120px;
   margin-bottom: 81px;
@@ -271,6 +305,9 @@
     padding-bottom: 128px;
     flex-direction: column;
   }
+  @include for-size(tablet) {
+    flex-direction: column;
+  }
   padding-top: 108px;
   padding-bottom: 257px;
 
@@ -279,11 +316,17 @@
 
 .form__image {
   @include for-size(mobile) {
-    width: 100%;
+    max-width: 300px;
     height: auto;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include for-size(tablet) {
+    margin-left: 0;
+    margin-bottom: 50px;
   }
   width: 749.9px;
   height: 510px;
@@ -294,7 +337,13 @@
 
 .form {
   @include for-size(mobile) {
-    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include for-size(tablet) {
+    margin-left: auto;
+    margin-right: auto;
   }
   width: 570px;
   display: flex;
@@ -329,6 +378,9 @@
     margin-bottom: 10px;
     border-radius: 46px;
     padding-left: 15px;
+  }
+  @include for-size(tablet) {
+    width: 100%;
   }
   width: 470px;
   height: 64px;
@@ -384,6 +436,10 @@
     letter-spacing: 0.15px;
     margin-top: 20px;
   }
+
+  @include for-size(tablet) {
+    width: 100%;
+  }
   width: 470px;
   height: 64px;
   background: #f6ae00;
@@ -406,4 +462,27 @@
   background-color: #fff;
   color: #f6ae00;
   border: 2px solid #f6ae00;
+}
+
+// Tablet
+
+.cards {
+  @include for-size(tablet) {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.cards__item:nth-child(odd) {
+  @include for-size(tablet) {
+    margin-right: 60px;
+  }
+}
+
+.cards__item:nth-child(even) {
+  @include for-size(tablet) {
+    margin-right: 0;
+  }
 }
