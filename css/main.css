@@ -1640,11 +1640,13 @@ summary {
 .page {
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
   background-color: #fff;
   background-image: url("../../assets/images/Desktop/Hero-smm.png"), url("../../assets/images/Desktop/Vector-3.png"), url("../../assets/images/Desktop/Vector-4.png"), url("../../assets/images/Desktop/Vector-1.png"), url("../../assets/images/Desktop/Vector-2.png");
   background-size: 1920px, 213px, 317px, 1920px, 1920px;
   background-position: right 0 top 0, left 0 top 847px, right 0 bottom 0, right 0 top 0, right 0 top 1500px;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -1677,28 +1679,28 @@ summary {
 
 @media (min-width: 280px) and (max-width: 380px) {
   .page {
-    background-size: 100%, 100% 800px, 100%, 80%, 100% 1500px, 60%, 100% 550px;
-    background-position: left 0 top 140px, left 0 top 0, right 0 top 1873px, right 0 top 2535px, right 0 top 1909px, right 0 bottom 0, left 0 bottom 0;
+    background-size: 100%, 100% 800px, 100%, 90%, 100% 1500px, 60%, 100% 550px;
+    background-position: left 0 top 140px, left 0 top 0, right 0 top 1873px, right 0 top 2650px, right 0 top 1909px, right 0 bottom 0, left 0 bottom 0;
   }
 }
 
 @media (min-width: 380px) and (max-width: 479px) {
   .page {
-    background-size: 100%, 100% 800px, 100%, 80%, 100% 1500px, 50%, 100% 550px;
+    background-size: 100%, 100% 800px, 100%, 90%, 100% 1500px, 50%, 100% 550px;
     background-position: left 0 top 140px, left 0 top 0, right 0 top 1873px, right 0 top 2535px, right 0 top 1909px, right 0 bottom 0, left 0 bottom 0;
   }
 }
 
 @media (min-width: 480px) and (max-width: 549px) {
   .page {
-    background-size: 90%, 100% 800px, 100%, 70%, 100% 1500px, 40%, 100% 550px;
+    background-size: 90%, 100% 800px, 100%, 80%, 100% 1500px, 40%, 100% 550px;
     background-position: right 0 top 100px, left 0 top 0, right 0 top 1873px, right 0 top 2535px, left 0 top 1909px, right 0 bottom 0, left 0 bottom 0;
   }
 }
 
 @media (min-width: 550px) and (max-width: 619px) {
   .page {
-    background-size: 80%, 100% 800px, 100%, 60%, 100% 1500px, 30%, 100% 550px;
+    background-size: 80%, 100% 800px, 100%, 70%, 100% 1500px, 30%, 100% 550px;
     background-position: right 0 top 100px, left 0 top 0, right 0 top 1873px, right 0 top 2535px, left 0 top 1909px, right 0 bottom 0, left 0 bottom 0;
   }
 }
@@ -1721,7 +1723,6 @@ summary {
   .page {
     background-size: 70%, 100% 1050px, 0%, 90%, 100% 2000px, 40%, 100% 700px;
     background-position: right 0 top 300px, left 0 top 100px, right 0 top 1900px, right 0 top 3100px, left 0 top 2909px, right 0 bottom 0, left 0 bottom 0;
-    background-repeat: no-repeat;
   }
 }
 
@@ -1729,7 +1730,6 @@ summary {
   .page {
     background-size: 60%, 100% 1050px, 0%, 90%, 100% 2000px, 40%, 100% 700px;
     background-position: right 0 top 300px, left 0 top 100px, right 0 top 1900px, right 0 top 3000px, left 0 top 2909px, right 0 bottom 0, left 0 bottom 0;
-    background-repeat: no-repeat;
   }
 }
 
@@ -1737,7 +1737,6 @@ summary {
   .page {
     background-size: 55%, 100% 1050px, 0%, 90%, 100% 2000px, 30%, 100% 700px;
     background-position: right 0 top 300px, left 0 top 100px, right 0 top 1900px, right 0 top 2900px, left 0 top 2909px, right 0 bottom 0, left 0 bottom 0;
-    background-repeat: no-repeat;
   }
 }
 
@@ -1745,7 +1744,55 @@ summary {
   .page {
     background-size: 50%, 100% 1050px, 0%, 90%, 100% 2000px, 30%, 100% 700px;
     background-position: right 0 top 300px, left 0 top 100px, right 0 top 1900px, right 0 top 2800px, left 0 top 2909px, right 0 bottom 0, left 0 bottom 0;
-    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .page {
+    background-size: 100%, 213px, 217px, 120% 1800px, 1920px;
+    background-position: right 0 top 150px, left 0 top 887px, right 0 bottom 0, right 0 top 0, right -200px top 1500px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .page {
+    background-size: 100%, 213px, 217px, 120% 1800px, 1920px;
+    background-position: right 0 top 150px, left 0 top 887px, right 0 bottom 0, right -80px top 0, right -200px top 1500px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1499px) {
+  .page {
+    background-size: 100%, 213px, 217px, 120% 1800px, 1920px;
+    background-position: right 0 top 150px, left 0 top 887px, right 0 bottom 0, right -100px top 0, right -200px top 1500px;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1599px) {
+  .page {
+    background-size: 100%, 213px, 217px, 120% 1800px, 1920px;
+    background-position: right 0 top 150px, left 0 top 887px, right 0 bottom 0, right -150px top 0, right -200px top 1500px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1699px) {
+  .page {
+    background-size: 100%, 213px, 217px, 120% 1800px, 1920px;
+    background-position: right 0 top 100px, left -60px top 687px, right 0 bottom 0, right -200px top 0, right -200px top 1500px;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 1799px) {
+  .page {
+    background-size: 100%, 213px, 217px, 120% 1800px, 1920px;
+    background-position: right 0 top 50px, left -50px top 687px, right 0 bottom 0, right -250px top 0, right -150px top 1500px;
+  }
+}
+
+@media (min-width: 1800px) and (max-width: 1920px) {
+  .page {
+    background-size: 100%, 213px, 217px, 120% 1800px, 1920px;
+    background-position: right 0 top 0, left 0 top 687px, right 0 bottom 0, right -300px top 0, right -100px top 1500px;
   }
 }
 /*# sourceMappingURL=main.css.map */
