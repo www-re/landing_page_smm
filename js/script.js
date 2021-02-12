@@ -4,14 +4,32 @@ const refs = {
   mobileMenuRef: document.querySelector(".header__nav"),
 };
 
-refs.iconOpenRef.addEventListener("click", () => {
-  refs.iconOpenRef.style.display = "none";
-  refs.mobileMenuRef.classList.add("active");
-  refs.iconCloseRef.style.display = "block";
-});
+const { iconOpenRef, iconCloseRef, mobileMenuRef } = refs;
 
-refs.iconCloseRef.addEventListener("click", () => {
-  refs.iconOpenRef.style.display = "block";
-  refs.iconCloseRef.style.display = "none";
-  refs.mobileMenuRef.classList.remove("active");
-});
+iconOpenRef.addEventListener("click", onOpen);
+
+iconCloseRef.addEventListener("click", onClose);
+
+function onClose() {
+  setTimeout(() => {
+    iconOpenRef.style.display = "block";
+    iconCloseRef.style.display = "none";
+    mobileMenuRef.classList.remove("active");
+  }, 300);
+}
+
+function onOpen() {
+  setTimeout(() => {
+    iconOpenRef.style.display = "none";
+    mobileMenuRef.classList.add("active");
+    iconCloseRef.style.display = "block";
+  }, 300);
+
+  mobileMenuRef.addEventListener("click", (event) => {
+    if ((event.currentTarget = mobileMenuRef)) {
+      setTimeout(() => {
+        return onClose();
+      }, 300);
+    }
+  });
+}
