@@ -3,11 +3,18 @@
     padding-top: 27px;
     padding-bottom: 70px;
   }
+  @include for-size(tablet) {
+    padding-top: 27px;
+    padding-bottom: 70px;
+  }
   padding-bottom: 182px;
 }
 
 .feedback-container {
   @include for-size(mobile) {
+    flex-direction: column;
+  }
+  @include for-size(tablet) {
     flex-direction: column;
   }
   display: flex;
@@ -19,6 +26,12 @@
     min-width: 428px;
     height: auto;
     margin-left: -64px;
+  }
+  @include for-size(tablet) {
+    display: block;
+    min-width: 428px;
+    height: auto;
+    margin-left: -150px;
   }
   display: block;
   width: 941px;
@@ -32,6 +45,11 @@
     margin-top: 0;
     margin-top: 11px;
   }
+  @include for-size(tablet) {
+    margin-left: 0;
+    margin-top: 0;
+    margin-top: 11px;
+  }
   margin-left: 55px;
   margin-top: 174px;
   height: 100%;
@@ -39,6 +57,10 @@
 
 .text-container__heading {
   @include for-size(mobile) {
+    font-size: 54px;
+    margin-bottom: 12px;
+  }
+  @include for-size(tablet) {
     font-size: 54px;
     margin-bottom: 12px;
   }
@@ -58,6 +80,11 @@
     font-size: 24px;
     margin-bottom: 48px;
   }
+  @include for-size(tablet) {
+    font-size: 24px;
+    margin-bottom: 48px;
+  }
+
   margin-bottom: 70px;
   font-family: gilroy-medium;
   font-style: normal;
@@ -73,6 +100,9 @@
 
 .text-container__link {
   @include for-size(mobile) {
+    font-size: 24px;
+  }
+  @include for-size(tablet) {
     font-size: 24px;
   }
   display: flex;
@@ -92,6 +122,10 @@
 
 .text-container__link::after {
   @include for-size(mobile) {
+    width: 26px;
+    height: 15px;
+  }
+  @include for-size(tablet) {
     width: 26px;
     height: 15px;
   }
