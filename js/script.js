@@ -2,6 +2,7 @@ const refs = {
   iconOpenRef: document.querySelector(".open"),
   iconCloseRef: document.querySelector(".close"),
   mobileMenuRef: document.querySelector(".header__nav"),
+  responsibilitiesRef: document.querySelector("#resp"),
 };
 
 const { iconOpenRef, iconCloseRef, mobileMenuRef } = refs;
