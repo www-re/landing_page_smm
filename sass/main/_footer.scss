@@ -13,22 +13,22 @@
 .footer__list-item:first-child {
   @include for-size(mobile) {
     margin-right: auto;
-    margin-left: auto;
-    margin-right: auto;
   }
   @include for-size(tablet) {
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   margin-right: 209px;
 }
 
 .footer__list-item:nth-child(2) {
   @include for-size(mobile) {
-    width: 100%;
+    // width: 100%;
     margin-right: auto;
   }
   @include for-size(tablet) {
     margin: 30px auto;
+    margin-top: 60px;
   }
   width: 284px;
   margin-right: 125px;
@@ -42,11 +42,14 @@
 
     display: flex;
     flex-direction: column-reverse;
-    margin-left: auto;
+    // margin-left: auto;
     margin-right: auto;
   }
   @include for-size(tablet) {
     margin-right: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 40px;
   }
   text-align: right;
 }
@@ -70,7 +73,7 @@
     max-width: 300px;
   }
   @include for-size(tablet) {
-    margin-left: auto;
+    // margin-left: auto;
     margin-right: auto;
   }
 }
@@ -154,7 +157,7 @@
 }
 
 .address {
-  margin-left: auto;
+  // margin-left: auto;
   margin-right: auto;
 }
 
@@ -162,7 +165,7 @@
   @include for-size(mobile) {
     font-size: 14px;
     margin-bottom: -5px;
-    margin-left: auto;
+    // margin-left: auto;
     margin-right: auto;
   }
 
@@ -189,7 +192,7 @@
     display: flex;
     flex-direction: column;
     max-width: 300px;
-    margin-left: auto;
+    // margin-left: auto;
     margin-right: auto;
   }
   @include for-size(tablet) {

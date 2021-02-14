@@ -15,21 +15,20 @@ function onClose() {
     iconOpenRef.style.display = "block";
     iconCloseRef.style.display = "none";
     mobileMenuRef.classList.remove("active");
-  }, 300);
+  }, 100);
 }
 
 function onOpen() {
-  setTimeout(() => {
-    iconOpenRef.style.display = "none";
-    mobileMenuRef.classList.add("active");
-    iconCloseRef.style.display = "block";
-  }, 300);
+  iconOpenRef.style.display = "none";
+  mobileMenuRef.classList.add("active");
+  iconCloseRef.style.display = "block";
 
   mobileMenuRef.addEventListener("click", (event) => {
-    if ((event.currentTarget = mobileMenuRef)) {
-      setTimeout(() => {
-        return onClose();
-      }, 300);
+    if (event.target.tagName === "A") {
+      return onClose();
+    }
+    if (event.target === mobileMenuRef) {
+      return onClose();
     }
   });
 }

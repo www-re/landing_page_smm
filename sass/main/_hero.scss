@@ -3,6 +3,10 @@
     padding-top: 43px;
     padding-bottom: 518px;
   }
+  @include for-size(tablet) {
+    padding-top: 170px;
+    padding-bottom: 513px;
+  }
   padding-top: 270px;
   padding-bottom: 413px;
 }
