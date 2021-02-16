@@ -501,6 +501,8 @@ html {
   font-size: 18px;
   line-height: 130%;
   color: #ffffff;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -531,6 +533,8 @@ html {
 
 .header__nav__link:hover {
   color: #f6ae00;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
 }
 
 .open,
@@ -683,6 +687,8 @@ html {
   background: #f6ae00;
   border-radius: 57px;
   color: #ffffff;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -699,6 +705,8 @@ html {
 .hero__link:hover {
   background-color: #fff;
   color: #f6ae00;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
 }
 
 /* About us 1 */
@@ -1192,13 +1200,16 @@ html {
   width: 470px;
   height: 64px;
   background: #ffffff;
-  border: 1px solid rgba(29, 29, 29, 0.33);
+  border: 3px solid rgba(29, 29, 29, 0.33);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 61px;
   margin-bottom: 16px;
   padding-left: 28px;
   outline: none;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+  color: #afafaf;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -1280,8 +1291,11 @@ html {
   }
 }
 
-.form input:focus {
-  border: 4px solid #f6ae00;
+.form input:focus,
+.form input:hover {
+  border: 3px solid #f6ae00;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
 }
 
 .form__button {
@@ -1298,6 +1312,8 @@ html {
   letter-spacing: 0.2px;
   color: #ffffff;
   outline: none;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -1322,6 +1338,8 @@ html {
   background-color: #fff;
   color: #f6ae00;
   border: 2px solid #f6ae00;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -1489,6 +1507,8 @@ html {
   line-height: 28px;
   letter-spacing: 0.2px;
   color: #ffffff;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -1502,6 +1522,8 @@ html {
 
 .number:hover {
   color: #f6ae00;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
 }
 
 .contact:not(:last-child) {
@@ -1553,6 +1575,12 @@ html {
   }
 }
 
+.soclinks__item {
+  border-radius: 50%;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+
 .soclinks__item:not(:last-child) {
   margin-right: 23px;
 }
@@ -1566,6 +1594,8 @@ html {
 .soclinks__item:hover {
   background-color: #f6ae00;
   border-radius: 50%;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
 }
 
 .soclinks-image {
@@ -1593,6 +1623,8 @@ html {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.2px;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
   color: #ffffff;
 }
 
@@ -1606,6 +1638,8 @@ html {
 
 .email:hover {
   color: #f6ae00;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

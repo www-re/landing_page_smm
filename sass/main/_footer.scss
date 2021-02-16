@@ -97,10 +97,12 @@
   letter-spacing: 0.2px;
 
   color: #ffffff;
+  transition: 300ms ease;
 }
 
 .number:hover {
   color: #f6ae00;
+  transition: 300ms ease;
 }
 
 .contact:not(:last-child) {
@@ -135,6 +137,10 @@
   display: flex;
   margin-bottom: 35px;
 }
+.soclinks__item {
+  border-radius: 50%;
+  transition: 300ms ease;
+}
 
 .soclinks__item:not(:last-child) {
   @include for-size(mobile) {
@@ -146,6 +152,7 @@
 .soclinks__item:hover {
   background-color: #f6ae00;
   border-radius: 50%;
+  transition: 300ms ease;
 }
 
 .soclinks-image {
@@ -180,12 +187,14 @@
   line-height: 28px;
 
   letter-spacing: 0.2px;
+  transition: 300ms ease;
 
   color: #ffffff;
 }
 
 .email:hover {
   color: #f6ae00;
+  transition: 300ms ease;
 }
 
 .contact-container {

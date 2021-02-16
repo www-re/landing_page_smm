@@ -12,11 +12,9 @@ iconOpenRef.addEventListener("click", onOpen);
 iconCloseRef.addEventListener("click", onClose);
 
 function onClose() {
-  setTimeout(() => {
-    iconOpenRef.style.display = "block";
-    iconCloseRef.style.display = "none";
-    mobileMenuRef.classList.remove("active");
-  }, 100);
+  iconOpenRef.style.display = "block";
+  iconCloseRef.style.display = "none";
+  mobileMenuRef.classList.remove("active");
 }
 
 function onOpen() {
