@@ -1200,7 +1200,7 @@ html {
   width: 470px;
   height: 64px;
   background: #ffffff;
-  border: 3px solid rgba(29, 29, 29, 0.33);
+  border: 1px solid rgba(29, 29, 29, 0.33);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 61px;
@@ -1291,9 +1291,8 @@ html {
   }
 }
 
-.form input:focus,
-.form input:hover {
-  border: 3px solid #f6ae00;
+.form input:focus {
+  border: 4px solid #f6ae00;
   -webkit-transition: 300ms ease;
   transition: 300ms ease;
 }

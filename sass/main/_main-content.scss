@@ -52,13 +52,11 @@
     margin-right: auto;
   }
   margin-bottom: 55px;
-
   font-family: gilroy-extra-bold;
   font-style: normal;
   font-weight: 800;
   font-size: 36px;
   line-height: 140%;
-
   display: flex;
   align-items: center;
   letter-spacing: 0.1px;
@@ -81,11 +79,8 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-
   letter-spacing: 0.2px;
-
   color: #222222;
-
   padding-right: 10px;
   width: 570px;
 }
@@ -125,19 +120,16 @@
     letter-spacing: 0.067px;
     margin-bottom: 30px;
     line-height: 130%;
-
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
   }
   margin-bottom: 55px;
-
   font-family: gilroy-extra-bold;
   font-style: normal;
   font-weight: 800;
   font-size: 36px;
   line-height: 140%;
-
   display: flex;
   align-items: center;
   letter-spacing: 0.1px;
@@ -153,7 +145,6 @@
     align-items: center;
     max-width: 300px;
     height: 144px;
-
     font-size: 12px;
     line-height: 130%;
     text-align: left;
@@ -166,11 +157,8 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-
   letter-spacing: 0.2px;
-
   color: #222222;
-
   width: 602px;
   padding-right: 40px;
 }
@@ -214,11 +202,9 @@
   font-weight: 800;
   font-size: 36px;
   line-height: 140%;
-
   text-align: center;
   letter-spacing: 0.1px;
   color: #fff;
-
   margin-bottom: 131px;
 }
 
@@ -242,7 +228,6 @@
     margin-right: auto;
     margin-bottom: 40px;
   }
-
   width: 310px;
   margin-right: 120px;
   margin-bottom: 81px;
@@ -270,13 +255,11 @@
   }
   display: inline-block;
   width: 230px;
-
   font-family: gilroy-medium;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 130%;
-
   color: #f6ae00;
   margin-bottom: 34px;
 }
@@ -291,9 +274,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-
   letter-spacing: 0.2px;
-
   color: #ffffff;
 }
 
@@ -310,7 +291,6 @@
   }
   padding-top: 108px;
   padding-bottom: 257px;
-
   display: flex;
 }
 
@@ -330,7 +310,6 @@
   }
   width: 749.9px;
   height: 510px;
-
   margin-left: -225px;
   margin-right: 80px;
 }
@@ -364,9 +343,7 @@
   font-weight: 800;
   font-size: 36px;
   line-height: 140%;
-
   letter-spacing: 0.1px;
-
   color: #222222;
   margin-bottom: 40px;
 }
@@ -384,9 +361,8 @@
   }
   width: 470px;
   height: 64px;
-
   background: #ffffff;
-  border: 3px solid rgba(29, 29, 29, 0.33);
+  border: 1px solid rgba(29, 29, 29, 0.33);
   box-sizing: border-box;
   border-radius: 61px;
   margin-bottom: 16px;
@@ -400,7 +376,6 @@
   @include for-size(mobile) {
     font-size: 12px;
     line-height: 21px;
-
     letter-spacing: 0.15px;
   }
   font-family: gilroy-medium;
@@ -408,35 +383,22 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-
   letter-spacing: 0.2px;
-
   color: #afafaf;
 }
 
-.form input:focus,
-.form input:hover {
-  border: 3px solid #f6ae00;
+.form input:focus {
+  border: 4px solid #f6ae00;
   transition: 300ms ease;
 }
-
-// .form > input:invalid {
-//   border: 1px solid red;
-// }
-
-// .form > input:invalid {
-//   border: 1px solid green;
-// }
 
 .form__button {
   @include for-size(mobile) {
     width: 100%;
     height: 42px;
-
     border-radius: 43px;
     font-size: 12px;
     line-height: 19px;
-
     letter-spacing: 0.15px;
     margin-top: 20px;
   }
@@ -449,15 +411,12 @@
   background: #f6ae00;
   border-radius: 57px;
   border: none;
-
   font-family: gilroy-extra-bold;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 25px;
-
   letter-spacing: 0.2px;
-
   color: #ffffff;
   outline: none;
   transition: 300ms ease;

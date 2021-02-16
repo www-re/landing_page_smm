@@ -23,7 +23,6 @@
 
 .footer__list-item:nth-child(2) {
   @include for-size(mobile) {
-    // width: 100%;
     margin-right: auto;
   }
   @include for-size(tablet) {
@@ -39,10 +38,8 @@
     margin-top: 40px;
     margin-right: auto;
     text-align: left;
-
     display: flex;
     flex-direction: column-reverse;
-    // margin-left: auto;
     margin-right: auto;
   }
   @include for-size(tablet) {
@@ -73,7 +70,6 @@
     max-width: 300px;
   }
   @include for-size(tablet) {
-    // margin-left: auto;
     margin-right: auto;
   }
 }
@@ -87,15 +83,12 @@
   }
   display: flex;
   align-items: center;
-
   font-family: gilroy-medium;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-
   letter-spacing: 0.2px;
-
   color: #ffffff;
   transition: 300ms ease;
 }
@@ -165,7 +158,6 @@
 }
 
 .address {
-  // margin-left: auto;
   margin-right: auto;
 }
 
@@ -173,22 +165,17 @@
   @include for-size(mobile) {
     font-size: 14px;
     margin-bottom: -5px;
-    // margin-left: auto;
     margin-right: auto;
   }
-
   display: inline-block;
   margin-bottom: 21px;
-
   font-family: gilroy-medium;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-
   letter-spacing: 0.2px;
   transition: 300ms ease;
-
   color: #ffffff;
 }
 
@@ -202,7 +189,6 @@
     display: flex;
     flex-direction: column;
     max-width: 300px;
-    // margin-left: auto;
     margin-right: auto;
   }
   @include for-size(tablet) {
@@ -227,9 +213,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-
   letter-spacing: 0.2px;
-
   color: #ffffff;
 }
 
@@ -245,11 +229,8 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
-
   letter-spacing: 0.2px;
   text-align: center;
-
   color: #ffffff;
-
   padding: 57px 0 14px 0;
 }
