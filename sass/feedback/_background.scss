@@ -41,28 +41,27 @@
 
 @media (min-width: 600px) and (max-width: 850px) {
   .feedback-page {
-    background-size: 60%, 100%, 115% 20%;
+    background-size: 40%, 100%, 115% 20%;
     background-position: right 0 bottom 0, right 0 top 0, right 0 bottom 0;
   }
 }
 
 @media (min-width: 850px) and (max-width: 949px) {
   .feedback-page {
-    background-size: 60%, 100%, 100% 0;
+    background-size: 40%, 100%, 100% 0;
     background-position: right 0 bottom 30px, right 0 top 0, right 0 bottom 0;
   }
 }
 
-@media (min-width: 1050px) and (max-width: 1920px) {
+@media (min-width: 950px) and (max-width: 1049px) {
   .feedback-page {
-    background-size: 60%, 100%, 100% 0;
+    background-size: 40%, 100%, 90%;
     background-position: right 0 bottom 30px, right 0 top 0, right 0 bottom 0;
   }
 }
-
-@media (min-width: 950px) and (max-width: 1050px) {
+@media (min-width: 1050px) and (max-width: 1199px) {
   .feedback-page {
-    background-size: 60%, 100%, 90%;
+    background-size: 40%, 100%, 90% 0;
     background-position: right 0 bottom 30px, right 0 top 0, right 0 bottom 0;
   }
 }

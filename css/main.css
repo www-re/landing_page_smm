@@ -362,7 +362,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100px;
+  height: 80px;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -374,7 +374,7 @@ html {
 }
 
 .header__company-link {
-  width: 232px;
+  width: 230px;
   height: 59.9px;
 }
 
@@ -1712,6 +1712,27 @@ html {
   .footer__copyright {
     font-size: 12px;
     padding: 20px 0 25px 0;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .footer__list-item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .soclinks__item:not(:last-child) {
+    margin-right: 20px;
+  }
+  .contact-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contacts {
+    margin-left: 30px;
+  }
+  .email {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

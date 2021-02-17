@@ -33,6 +33,10 @@
     height: auto;
     margin-left: -150px;
   }
+
+  @media (min-width: 1050px) and (max-width: 1199px) {
+    margin-left: -250px;
+  }
   display: block;
   width: 941px;
   height: 677px;
