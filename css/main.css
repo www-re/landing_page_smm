@@ -1887,11 +1887,4 @@ html {
     background-position: right 0 top 50px, left -50px top 687px, right 0 bottom 0, right -250px top 0, right -150px top 1500px;
   }
 }
-
-@media (min-width: 1800px) and (max-width: 1920px) {
-  .page {
-    background-size: 100%, 213px, 217px, 120% 1800px, 1920px;
-    background-position: right 0 top 0, left 0 top 687px, right 0 bottom 0, right -300px top 0, right -100px top 1500px;
-  }
-}
 /*# sourceMappingURL=main.css.map */
